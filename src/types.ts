@@ -1,14 +1,10 @@
-export type Product = {
-   id: number;
-   title: string;
-   price: number;
-   description: string;
-   category: {
-      hot: boolean;
-      cold: boolean;
-   };
-   image: string;
-   rating: {
-      rate: number;
-   };
+export type Coffee = {
+  id: number;
+  name: string;
+  price: number;
+  description: string;
+  image: string;
+  category: "hot" | "cold";
+  bestSeller: boolean;
+  featured: boolean;
 };

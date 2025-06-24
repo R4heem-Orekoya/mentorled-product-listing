@@ -1,0 +1,102 @@
+[
+   {
+      "id": 1,
+      "name": "Vanilla Latte",
+      "price": 5.12,
+      "description": "Espresso with steamed milk and vanilla syrup.",
+      "image": "https://assets.lummi.ai/assets/QmXFC2WRnJSnxkRhmDQKkvF4Kk21KYeGEwHEEGBFH8kdcU?auto=format&w=1500&h=1500",
+      "category": "hot",
+      "bestSeller": true,
+      "featured": false
+   },
+   {
+      "id": 2,
+      "name": "Iced Caramel Macchiato",
+      "price": 5.8,
+      "description": "Rich espresso, milk, and caramel over ice.",
+      "image": "https://assets.lummi.ai/assets/Qmdmd1Mi2ajUMbW9ZQuaQy9jFSYJSzXfmsEt3RCGqpVLE8undefined?auto=format&w=1500&h=1500",
+      "category": "cold",
+      "bestSeller": true,
+      "featured": true
+   },
+   {
+      "id": 3,
+      "name": "Cappuccino",
+      "price": 4.75,
+      "description": "Espresso, steamed milk, and a thick layer of foam.",
+      "image": "https://assets.lummi.ai/assets/QmVNMDZHrzbVmZtnRGeXRjk1yVib8io1EWBK418wEk7YEC?auto=format&w=1500&h=1500",
+      "category": "hot",
+      "bestSeller": false,
+      "featured": false
+   },
+   {
+      "id": 4,
+      "name": "Cold Brew",
+      "price": 3.99,
+      "description": "Slow-steeped coffee served cold.",
+      "image": "https://assets.lummi.ai/assets/QmS1V2aPPowcMvsj9a4Pndg1DjnTxAcGujXhRKWZVos6zU?auto=format&w=1500&h=1500",
+      "category": "cold",
+      "bestSeller": true,
+      "featured": false
+   },
+   {
+      "id": 5,
+      "name": "Flat White",
+      "price": 4.2,
+      "description": "Smooth espresso and velvety steamed milk.",
+      "image": "https://assets.lummi.ai/assets/QmUyoMqeQw4XJsMTcF3vR5zpPMeTqzaN81TAJGqPCnzEm7?auto=format&w=1500&h=1500",
+      "category": "hot",
+      "bestSeller": false,
+      "featured": true
+   },
+   {
+      "id": 6,
+      "name": "Mocha",
+      "price": 5.6,
+      "description": "Chocolate, espresso, and steamed milk.",
+      "image": "https://assets.lummi.ai/assets/QmQjNqgvkfSDMv77QhBMN5NyvsBuQ83BmSAhWS375uUvom?auto=format&w=1500&h=1500",
+      "category": "hot",
+      "bestSeller": false,
+      "featured": false
+   },
+   {
+      "id": 7,
+      "name": "Iced Americano",
+      "price": 3.5,
+      "description": "Espresso diluted with cold water and ice.",
+      "image": "https://assets.lummi.ai/assets/QmeZYFJRDXaYd1MbnAWBVpFQi6bRsbVWkEi4L17NogR7Gpundefined?auto=format&w=1500&h=1500",
+      "category": "cold",
+      "bestSeller": false,
+      "featured": false
+   },
+   {
+      "id": 8,
+      "name": "Affogato",
+      "price": 6.0,
+      "description": "Espresso poured over vanilla ice cream.",
+      "image": "https://assets.lummi.ai/assets/QmRUUr1LNqzwAQCj9mG8x8b3usVc7djdu5xNqj6zskbhpQ?auto=format&w=1500&h=1500",
+      "category": "cold",
+      "bestSeller": true,
+      "featured": true
+   },
+   {
+      "id": 9,
+      "name": "Ristretto",
+      "price": 3.0,
+      "description": "Short shot of espresso with intense flavor.",
+      "image": "https://assets.lummi.ai/assets/QmXDdiM99mGUSytnpzYKtr7tXbrgy5rZ5aYCp63zGosLEN?auto=format&w=1500&h=1500",
+      "category": "hot",
+      "bestSeller": false,
+      "featured": false
+   },
+   {
+      "id": 10,
+      "name": "Iced Latte",
+      "price": 4.9,
+      "description": "Espresso, cold milk, and ice.",
+      "image": "https://assets.lummi.ai/assets/QmZi1b2NLyT3MTdAXhdiAAZqVyJ6yuVE6JsWBCCXPVwXqy?auto=format&w=1500&h=1500",
+      "category": "cold",
+      "bestSeller": false,
+      "featured": false
+   }
+]

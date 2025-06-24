@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Coffee from "~/public/coffee2.jpeg"
+import Coffee from "~/public/coffee.png"
 import OwnerImage from "~/public/owner.png"
 import Link from "next/link";
 
@@ -20,7 +20,7 @@ export default function Header() {
                <p className="md:text-lg text-muted-foreground -mt-1">Odessa, ON</p>
 
                <div className="flex items-center gap-4 mt-3 text-muted-foreground">
-                  <div className="flex items-center gap-2 [&_svg]:size-4">
+                  <div className="flex items-center gap-2 [&_svg]:size-4 [&_svg]:shrink-0">
                      <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" strokeWidth={1.5}>
                            <path d="M3.864 16.455c-.858-3.432-1.287-5.147-.386-6.301S6.148 9 9.685 9h4.63c3.538 0 5.306 0 6.207 1.154s.472 2.87-.386 6.301c-.546 2.183-.818 3.274-1.632 3.91c-.814.635-1.939.635-4.189.635h-4.63c-2.25 0-3.375 0-4.189-.635c-.814-.636-1.087-1.727-1.632-3.91Z"></path>
