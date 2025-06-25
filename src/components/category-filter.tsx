@@ -30,7 +30,7 @@ export default function CategoryFilter() {
       })
 
       router.replace(`?${params.toString()}`, { scroll: false })
-   }, [selected])
+   }, [selected, router, searchParams])
 
    const toggleCategory = (value: string) => {
       setSelected(prev =>

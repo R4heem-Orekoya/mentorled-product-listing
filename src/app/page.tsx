@@ -2,6 +2,7 @@ import TopImage from "~/public/top-image.png"
 import Image from "next/image";
 import Header from "@/components/header";
 import Tab from "@/components/tab";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -17,7 +18,9 @@ export default function Home() {
       
       <div className="w-[min(1100px,90%)] mx-auto py-12">
         <Header />
-        <Tab />
+        <Suspense>
+          <Tab />
+        </Suspense>
       </div>
     </main>
   )

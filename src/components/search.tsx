@@ -28,7 +28,7 @@ export default function Search() {
       }
 
       router.replace(`?${params.toString()}`, { scroll: false })
-   }, [debouncedSearchTerm])
+   }, [debouncedSearchTerm, router, searchParams])
 
    return (
       <div className="relative">
