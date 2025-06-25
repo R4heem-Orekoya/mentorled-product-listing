@@ -6,7 +6,7 @@ This is a product listing ui solution to the Mentorled Internship challenge 2
 
 ## 🌍 Live Preview
 
-[View Live Site](https://mentorled-portfolio-alpha.vercel.app/)
+[View Live Site](https://mentorled-product-listing-two.vercel.app/)
 
 
 ## 🚀 Getting Started
@@ -15,7 +15,7 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/R4heem-Orekoya/mentorled-portfolio.git
+git clone https://github.com/R4heem-Orekoya/mentorled-product-listing.git
 
 # Navigate into the project directory
 cd mentorled-portfolio
