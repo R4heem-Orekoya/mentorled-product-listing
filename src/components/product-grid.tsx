@@ -36,7 +36,7 @@ export default function ProductGrid() {
    return (
       <>
          {products && products.length > 0 ? (
-            <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-6'>
+            <div className='grid sm:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-6'>
                {products.map(product => (
                   <ProductCard product={product} key={product.id} />
                ))}
@@ -55,5 +55,4 @@ export default function ProductGrid() {
          )}
       </>
    )
-
 }

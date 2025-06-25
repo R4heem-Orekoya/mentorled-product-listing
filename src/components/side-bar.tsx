@@ -4,7 +4,7 @@ import Search from "./search";
 
 export default function SideBar() {
    return (
-      <div className="sticky top-4 w-full max-w-[250px] space-y-4 aspect-square">
+      <div className="sticky hidden md:block top-4 w-full max-w-[250px] space-y-4 aspect-square">
          <Search />
          
          <ClearAllBtn />
